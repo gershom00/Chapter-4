@@ -1,0 +1,79 @@
+/*
+Author: Gershom Meza
+Date: 5/7/2024
+File Name: styles-analyze.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and header content */
+body {
+    padding: 2%;
+    background-color: #d1d1e0;
+}
+
+header h1 {
+    font-size: 3em;
+    font-family: Georgia, Times, serif;
+    padding: 3%;
+    color: #47476b;
+    text-align: center; /* Corrected alignment */
+}
+
+nav {
+    background-color: #47476b;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav li {
+    display: inline-block; /* Corrected display */
+    font-size: 1.5em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav li a {
+    display: block;
+    color: #e3eaf8;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    font-family: Geneva, Arial, sans-serif;
+    overflow: auto; /* Corrected overflow property */
+}
+
+#css1, #css2, #css3 {
+    width: 30%; /* Adjusted width */
+    float: left;
+    padding: 0 1%;
+}
+
+/* Style rule for the footer */
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    color: #47476b;
+    padding: 1% 0;
+    border-top: 3px solid #47476b;
+    clear: left; /* Clear float */
+}
+
+/* Additional style rule for anchor elements within the main */
+main a {
+    color: #47476b;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
