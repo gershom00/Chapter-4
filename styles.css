@@ -1,100 +1,96 @@
 /* CSS Reset */
-body, header, nav, main, footer, img, h1, h3 {
-  margin: 0;
-  padding: 0;
-  border: 0;
+body, header, nav, main, footer, h1, h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
-/* Style rule for body */
+/* Style rules for body and header content */
 body {
-  background-color: #e3eaf8;
+    background-color: #d9d9d9;
 }
 
-/* Style rule for image */
-img {
-  max-width: 100%;
-  display: block;
+header, footer {
+    padding: 2%;
+    text-align: center;
 }
-
-/* Style rule for header content */
-header h1 {
-  text-align: center;
-  font-size: 3em;
-  font-family: Georgia, Times, serif;
-  padding: 3%;
-  color: #101a2d;
-}
-
-/* Style rules for navigation area */
-nav {
-  background-color: #1d396d;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  text-align: center;
-}
-
-nav li {
-  display: inline-block;
-  font-size: 1.5em;
-  font-family: Verdana, Arial, sans-serif;
-  font-weight: bold;
-}
-
-nav li a {
-  display: block;
-  color: #e3eaf8;
-  padding: 0.5em;
-  text-decoration: none;
-}
-
 
 /* Style rules for main content */
 main {
-  padding: 2%;
-  font-family: Geneva, Arial, sans-serif;
-  overflow: auto;
+    padding: 2%;
+    overflow: auto;
 }
 
 main p {
-  font-size: 1.25em;
+    font-size: 1.25em;
+    padding: 2%;
 }
 
-main h3 {
-  padding-top: 2%;
-  font-size: 2em;
+main a {
+    color: #0000b3;
+    text-decoration: none;
 }
 
-#image {
-  width: 45%;
-  float: left;
-  padding: 1%;
+#orange, #purple, #green {
+    display: block;
+    margin-bottom: 2%;
+    text-align: center;
+    width: 33%;
+    float: left;
 }
 
-#group {
-  width: 45%;
-  float: right;
+#questions {
+    clear: left;
 }
 
-.external {
-  color: #1d396d;
-  font-weight: bold;
-  font-style: italic;
-  text-decoration: none;
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+    display: inline-block;
+    padding-top: 5%;
 }
 
-/* Style rules for footer content */
-footer {
-  text-align: center;
-  font-size: 0.85em;
-  background-color: #1d396d;
-  color: #e3eaf8;
-  padding: 1% 0;
+/* Orange */
+.orange-hex {
+    background-color: #FFA500; /* Hexadecimal color value for orange */
 }
 
-footer a {
-  color: #e3eaf8;
-  text-decoration: none;
+.orange-rgb {
+    background-color: rgb(255, 165, 0); /* RGB color value for orange */
+}
+
+.orange-hsl {
+    background-color: hsl(39, 100%, 50%); /* HSL color value for orange */
+}
+
+/* Purple */
+.purple-hex {
+    background-color: #800080; /* Hexadecimal color value for purple */
+}
+
+.purple-rgb {
+    background-color: rgb(128, 0, 128); /* RGB color value for purple */
+}
+
+.purple-hsl {
+    background-color: hsl(300, 100%, 25%); /* HSL color value for purple */
+}
+
+/* Green */
+.green-hex {
+    background-color: #008000; /* Hexadecimal color value for green */
+}
+
+.green-rgb {
+    background-color: rgb(0, 128, 0); /* RGB color value for green */
+}
+
+.green-hsl {
+    background-color: hsl(120, 100%, 25%); /* HSL color value for green */
+}
+
+/* Additional Styles */
+.light-blue-bg {
+    background-color: #ADD8E6; /* Hexadecimal color value for light blue */
 }
